@@ -1,5 +1,5 @@
 name: sphinx
-version: 0.2.5
+version: 0.2.6
 description: |
     Run Sphinx (http://www.sphinx-doc.org/en/stable/) to generate a documents.
 type: build
