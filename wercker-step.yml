@@ -20,3 +20,8 @@ properties:
     type: string
     default: ""
     required: false
+
+publish:
+ steps:
+ - internal/publish-step:
+ owner: wercker
