@@ -1,5 +1,6 @@
 # wercker.yml
 #box: debian:stable-slim
+box: python:3.5-slim
 #build:
 #  steps:
 #    - shellcheck:
