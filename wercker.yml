@@ -1,5 +1,4 @@
 # wercker.yml
-#box: wercker/default
 box: sabbir1cse/ubuntu-python-pip-supervisor
 build:
   steps:
@@ -8,4 +7,4 @@ build:
 publish:
   steps:
     - internal/publish-step:
-      owner: Spaaza
+      owner: spaaza
