@@ -1,10 +1,10 @@
 # /bin/bash
-if [ -n "$WERCKER_SPHINX_BASEDIR" ]; then
-  WERCKER_SPHINX_OPTIONS=$WERCKER_SPHINX_OPTIONS" --directory "${WERCKER_SPHINX_BASEDIR}
+if [ -n "$WERCKER_SPHINX2_BASEDIR" ]; then
+  WERCKER_SPHINX_OPTIONS=$WERCKER_SPHINX2_OPTIONS" --directory "${WERCKER_SPHINX2_BASEDIR}
 fi
 
 info "Installing Sphinx and other packages."
-pip install --upgrade -e git+https://github.com/sphinx-doc/sphinx@v1.7.4#egg=v1_7_4 $WERCKER_SPHINX_PACKAGES
+pip install --upgrade -e git+https://github.com/sphinx-doc/sphinx@v1.7.4#egg=v1_7_4 $WERCKER_SPHINX2_PACKAGES
 
 if [ -e "requirements.txt" ]; then
   info "Installing required packages."
@@ -12,4 +12,4 @@ if [ -e "requirements.txt" ]; then
 fi
 
 info "Compiling the document."
-make $WERCKER_SPHINX_TARGET $WERCKER_SPHINX_OPTIONS
+make $WERCKER_SPHINX2_TARGET $WERCKER_SPHINX2_OPTIONS
