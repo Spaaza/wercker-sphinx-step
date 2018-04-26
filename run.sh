@@ -12,8 +12,7 @@ if [ -e "requirements.txt" ]; then
 fi
 
 pwd
-#cd $WERCKER_SPHINX2_BASEDIR
-cd ../
+cd $WERCKER_SPHINX2_BASEDIR
 pwd
 info "Compiling the document."
 make $WERCKER_SPHINX2_TARGET $WERCKER_SPHINX2_OPTIONS
