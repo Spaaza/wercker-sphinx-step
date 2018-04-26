@@ -4,7 +4,7 @@ if [ -n "$WERCKER_SPHINX_BASEDIR" ]; then
 fi
 
 info "Installing Sphinx and other packages."
-pip install --upgrade -e git+https://github.com/sphinx-doc/sphinx@stable#egg=sphinx-stable $WERCKER_SPHINX_PACKAGES
+pip install --upgrade -e git+https://github.com/sphinx-doc/sphinx@1.7.4#egg=1_7_4 $WERCKER_SPHINX_PACKAGES
 
 if [ -e "requirements.txt" ]; then
   info "Installing required packages."
