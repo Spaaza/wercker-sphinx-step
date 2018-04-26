@@ -6,10 +6,10 @@ tags:
  - sphinx
  - docs
 properties:
-- name: target
- type: string
- default: html
- required: false
+  target:
+    type: string
+    default: html
+    required: false
 - name: basedir
  type: string
  default: ""
