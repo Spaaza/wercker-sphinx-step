@@ -1,22 +1,24 @@
+# step.yml
 name: sphinx
 version: 0.2.6
-description: |
-    Run Sphinx (http://www.sphinx-doc.org/en/stable/) to generate a documents.
-type: build
+summary: Run Sphinx (http://www.sphinx-doc.org/en/stable/) to generate a documents.
+tags:
+ - sphinx
+ - docs
 properties:
-  target:
-    type: string
-    default: html
-    required: false
-  basedir:
-    type: string
-    default: ""
-    required: false
-  packages:
-    type: string
-    default: ""
-    required: false
-  options:
-    type: string
-    default: ""
-    required: false
+- name: target
+ type: string
+ default: html
+ required: false
+- name: basedir
+ type: string
+ default: ""
+ required: false
+- name: packages
+ type: string
+ default: ""
+ required: false
+- name: options
+ type: string
+ default: ""
+ required: false
