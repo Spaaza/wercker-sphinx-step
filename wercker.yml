@@ -1,5 +1,6 @@
 # wercker.yml
-box: wercker/default
+#box: wercker/default
+box: sabbir1cse/ubuntu-python-pip-supervisor
 build:
   steps:
     - shellcheck:
