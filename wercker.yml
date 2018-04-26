@@ -1,3 +1,4 @@
+# wercker.yml
 publish:
  steps:
  - internal/publish-step:
