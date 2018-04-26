@@ -10,15 +10,15 @@ properties:
     type: string
     default: html
     required: false
-- name: basedir
- type: string
- default: ""
- required: false
-- name: packages
- type: string
- default: ""
- required: false
-- name: options
- type: string
- default: ""
- required: false
+  basedir:
+    type: string
+    default: ""
+    required: false
+  packages:
+    type: string
+    default: ""
+    required: false
+  options:
+    type: string
+    default: ""
+    required: false
