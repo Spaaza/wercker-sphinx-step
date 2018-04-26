@@ -18,7 +18,7 @@ properties:
     type: string
     default: ""
     required: false
-  - name: options:
+  - name: options
     type: string
     default: ""
     required: false
