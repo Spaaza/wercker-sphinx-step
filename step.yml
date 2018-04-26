@@ -3,22 +3,22 @@ name: sphinx
 version: 0.2.10
 summary: Run Sphinx (http://www.sphinx-doc.org/en/stable/) to generate a documents.
 tags:
- - sphinx
- - docs
+  - sphinx
+  - docs
 properties:
-  target:
+  - name: target
     type: string
     default: html
     required: false
-  basedir:
+  - name: basedir
     type: string
     default: ""
     required: false
-  packages:
+  - name: packages
     type: string
     default: ""
     required: false
-  options:
+  - name: options:
     type: string
     default: ""
     required: false
