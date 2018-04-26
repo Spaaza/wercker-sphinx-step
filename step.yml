@@ -1,6 +1,6 @@
 # step.yml
 name: sphinx2
-version: 0.2.10
+version: 0.2.11
 summary: Run Sphinx (http://www.sphinx-doc.org/en/stable/) to generate a documents.
 tags:
   - sphinx
