@@ -1,5 +1,6 @@
 # wercker.yml
-box: sabbir1cse/ubuntu-python-pip-supervisor
+#box: sabbir1cse/ubuntu-python-pip-supervisor
+box: python:3.5-slim
 build:
   steps:
     - shellcheck:
