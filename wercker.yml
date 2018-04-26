@@ -1,6 +1,6 @@
 # wercker.yml
 #box: debian:stable-slim
-box: python:3.5-slim
+box: sabbir1cse/ubuntu-python-pip-supervisor
 #build:
 #  steps:
 #    - shellcheck:
