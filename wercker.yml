@@ -1,9 +1,9 @@
 # wercker.yml
 box: debian:stable-slim
-build:
-  steps:
-    - shellcheck:
-      files: run.sh
+#build:
+#  steps:
+#    - shellcheck:
+#      files: run.sh
 publish:
   steps:
     - internal/publish-step:
